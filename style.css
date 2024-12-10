@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    font-size: 15pt;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Paragraph Styles */
+p {
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    margin: 10px;
+}
+
+/* Header Styles */
+header {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    height: auto; /* Adapts height to content */
+}
+
+/* Heading Styles */
+h1 {
+    color: white;
+    font-size: 18pt;
+    font-family: "Times New Roman", Times, serif;
+    text-shadow: 2px 2px 4px #ff0000;
+    margin: 10px 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+    font-size: 10pt;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+nav a {
+    color: white;
+    font-size:15pt;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: darkred;
+}
+
+/* Logo Styles */
+header .logo {
+    height: 90px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Main Content Styles */
+main .box {
+    background-color: darkred;
+    font-size: 9pt;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 90%; /* Ensures proper fit on mobile */
+    color: white;
+    text-align: center;
+}
+   h2 {
+     color: white;
+     font-family: "Times New Roman", Times, serif;
+   }
+
+
+/* Responsive Styles for Mobile Layout */
+@media (max-width: 768px) {
+    body {
+        font-size: 14pt;
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 16pt;
+    }
+
+    nav {
+        font-size: 0.7em;
+    }
+
+    nav a {
+        margin: 0 20px;
+        font-size: 1.3em;
+    }
+
+    main .box {
+        font-size: 8pt;
+        padding: 10px;
+        margin: 10px auto;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    
+    product {
+      margin-left: -100px;
+    }
+}
